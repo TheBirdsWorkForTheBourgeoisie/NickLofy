@@ -53,9 +53,9 @@ document.addEventListener("DOMContentLoaded", function () {
   let footerPath = "";
 
   if (currentPath.includes("/projects/capstone/")) {
-    footerPath = "../../footer.html"; // From capstone.html
+    footerPath = "/footer.html"; // From capstone.html
   } else {
-    footerPath = "../portfolio/footer.html"; // Default path (e.g., from index.html)
+    footerPath = "../footer.html"; // Default path (e.g., from index.html)
   }
 
   fetch(footerPath)
