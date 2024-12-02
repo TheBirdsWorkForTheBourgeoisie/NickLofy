@@ -988,6 +988,41 @@ footer {
 footer p {
 	color: #808080;
 }
+
+/* Social Buttons Container */
+.social-buttons {
+	display: flex;
+	justify-content: center;
+	gap: 15px; /* Spacing between buttons */
+	margin-top: 20px;
+	padding: 0;
+	list-style: none; /* Remove default list styling */
+  }
+  
+  /* Individual Button Styling */
+  .social-buttons li {
+	display: inline-block;
+  }
+  
+  .social-buttons a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	background-color: #e04343; /* Default background color */
+	color: #fff; /* Icon color */
+	border-radius: 50%; /* Circular buttons */
+	font-size: 18px; /* Icon size */
+	transition: all 0.3s ease; /* Smooth hover transition */
+	text-decoration: none; /* Remove underline */
+  }
+  
+  .social-buttons a:hover {
+	background-color: #ffe800; /* Hover background color */
+	color: #e04343; /* Hover icon color */
+	transform: scale(1.1); /* Slight zoom effect */
+  }
 /* ==========================================================================Responsive========================================================================== */
 
 
